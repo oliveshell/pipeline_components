@@ -56,8 +56,8 @@ if __name__ == "__main__":
         base_image="python:3.9",  # The onnx==1.11.0 package does not have wheels for Python 3.10 yet.
         packages_to_install=["skl2onnx==1.11"],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/_converters/ScikitLearnPickleModel/to_OnnxModel/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/_converters/ScikitLearnPickleModel/to_OnnxModel/component.yaml",
         },
         output_component_file="component.yaml",
     )

@@ -1,7 +1,7 @@
 name: Xgboost predict on ApacheParquet
 description: Makes predictions using a trained XGBoost model.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/XGBoost/Predict/from_ApacheParquet/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/XGBoost/Predict/from_ApacheParquet/component.yaml'}
 inputs:
 - {name: data, type: ApacheParquet, description: Feature data in Apache Parquet format.}
 - {name: model, type: XGBoostModel, description: Trained model in binary XGBoost format.}
@@ -46,7 +46,7 @@ implementation:
               label_column_name: Optional. Name of the column containing the label data that is excluded during the prediction.
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
           """
           from pathlib import Path
 

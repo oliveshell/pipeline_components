@@ -19,7 +19,7 @@ def create_dataset_from_CSV_for_Google_Cloud_AutoML_Tables(
     '''Creates Google Cloud AutoML Tables Dataset from CSV data.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         data_path: Data in CSV format that will be imported to the dataset.
@@ -186,7 +186,7 @@ if __name__ == '__main__':
         packages_to_install=['google-cloud-automl==2.4.2', 'google-cloud-storage==1.41.1'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_CSV/component.yaml",
         },
     )

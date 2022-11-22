@@ -1,16 +1,16 @@
 from kfp import components
 
-chicago_taxi_dataset_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/8dda6ec74d859a0112907fab8bc987a177b9fa4b/components/datasets/Chicago_Taxi_Trips/component.yaml")
-pandas_transform_csv_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/pandas/Transform_DataFrame/in_CSV_format/component.yaml")
-drop_header_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/tables/Remove_header/component.yaml")
-calculate_regression_metrics_from_csv_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/37d98d43ad3193cf3516c134899f272d9643117c/components/ml_metrics/Calculate_regression_metrics/from_CSV/component.yaml")
+chicago_taxi_dataset_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/8dda6ec74d859a0112907fab8bc987a177b9fa4b/components/datasets/Chicago_Taxi_Trips/component.yaml")
+pandas_transform_csv_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/pandas/Transform_DataFrame/in_CSV_format/component.yaml")
+drop_header_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/tables/Remove_header/component.yaml")
+calculate_regression_metrics_from_csv_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/37d98d43ad3193cf3516c134899f272d9643117c/components/ml_metrics/Calculate_regression_metrics/from_CSV/component.yaml")
 
-create_Vowpal_Wabbit_dataset_from_CSV_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Create_dataset/from_CSV/component.yaml")
-create_Vowpal_Wabbit_JSON_dataset_from_CSV_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Create_JSON_dataset/from_CSV/component.yaml")
-train_regression_model_using_Vowpal_Wabbit_on_VowpalWabbitDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Train_regression_model/from_VowpalWabbitDataset/component.yaml")
-train_regression_model_using_Vowpal_Wabbit_on_VowpalWabbitJsonDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Train_regression_model/from_VowpalWabbitJsonDataset/component.yaml")
-predict_using_Vowpal_Wabbit_model_on_VowpalWabbitDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Predict/from_VowpalWabbitDataset/component.yaml")
-predict_using_Vowpal_Wabbit_model_on_VowpalWabbitJsonDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Predict/from_VowpalWabbitJsonDataset/component.yaml")
+create_Vowpal_Wabbit_dataset_from_CSV_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Create_dataset/from_CSV/component.yaml")
+create_Vowpal_Wabbit_JSON_dataset_from_CSV_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Create_JSON_dataset/from_CSV/component.yaml")
+train_regression_model_using_Vowpal_Wabbit_on_VowpalWabbitDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Train_regression_model/from_VowpalWabbitDataset/component.yaml")
+train_regression_model_using_Vowpal_Wabbit_on_VowpalWabbitJsonDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Train_regression_model/from_VowpalWabbitJsonDataset/component.yaml")
+predict_using_Vowpal_Wabbit_model_on_VowpalWabbitDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Predict/from_VowpalWabbitDataset/component.yaml")
+predict_using_Vowpal_Wabbit_model_on_VowpalWabbitJsonDataset_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/a2a629e776d5fa0204ce71370cab23282d3e4278/components/ML_frameworks/Vowpal_Wabbit/Predict/from_VowpalWabbitJsonDataset/component.yaml")
 
 
 def vowpal_wabbit_pipeline():
@@ -99,8 +99,8 @@ if __name__ == "__main__":
     components.create_graph_component_from_pipeline_func(
         pipeline_func=vowpal_wabbit_pipeline,
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/ML_frameworks/Vowpal_Wabbit/_samples/pipeline.component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/ML_frameworks/Vowpal_Wabbit/_samples/pipeline.component.yaml",
         },
         output_component_file="pipeline.component.yaml",
     )

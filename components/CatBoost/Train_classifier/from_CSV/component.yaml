@@ -25,7 +25,7 @@ description: |-
           model: Trained model in binary CatBoostModel format.
 
       Annotations:
-          author: Alexey Volkov <alexey.volkov@ark-kun.com>
+          author: Alexey Volkov <alexey.volkov@oliveshell.com>
 inputs:
 - {name: training_data, type: CSV}
 - {name: starting_model, type: CatBoostModel, optional: true}
@@ -42,8 +42,8 @@ outputs:
 - {name: model, type: CatBoostModel}
 metadata:
   annotations:
-    author: Alexey Volkov <alexey.volkov@ark-kun.com>
-    canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/CatBoost/Train_classifier/from_CSV/component.yaml'
+    author: Alexey Volkov <alexey.volkov@oliveshell.com>
+    canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/CatBoost/Train_classifier/from_CSV/component.yaml'
 implementation:
   container:
     image: python:3.7
@@ -104,7 +104,7 @@ implementation:
               model: Trained model in binary CatBoostModel format.
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
           '''
           import tempfile
           from pathlib import Path
@@ -147,7 +147,7 @@ implementation:
 
       import json
       import argparse
-      _parser = argparse.ArgumentParser(prog='Catboost train classifier', description="Train a CatBoost classifier model.\n\n    Args:\n        training_data_path: Path for the training data in CSV format.\n        model_path: Output path for the trained model in binary CatBoostModel format.\n        starting_model_path: Path for the existing trained model to start from.\n        label_column: Column containing the label data.\n\n        loss_function: The metric to use in training and also selector of the machine learning\n            problem to solve. Default = 'Logloss'\n        num_iterations: Number of trees to add to the ensemble.\n        learning_rate: Step size shrinkage used in update to prevents overfitting.\n            Default value is selected automatically for binary classification with other parameters set to default.\n            In all other cases default is 0.03.\n        depth: Depth of a tree. All trees are the same depth. Default = 6\n        random_seed: Random number seed. Default = 0\n\n        cat_features: A list of Categorical features (indices or names).\n        text_features: A list of Text features (indices or names).\n        additional_training_options: A dictionary with additional options to pass to CatBoostClassifier\n\n    Outputs:\n        model: Trained model in binary CatBoostModel format.\n\n    Annotations:\n        author: Alexey Volkov <alexey.volkov@ark-kun.com>")
+      _parser = argparse.ArgumentParser(prog='Catboost train classifier', description="Train a CatBoost classifier model.\n\n    Args:\n        training_data_path: Path for the training data in CSV format.\n        model_path: Output path for the trained model in binary CatBoostModel format.\n        starting_model_path: Path for the existing trained model to start from.\n        label_column: Column containing the label data.\n\n        loss_function: The metric to use in training and also selector of the machine learning\n            problem to solve. Default = 'Logloss'\n        num_iterations: Number of trees to add to the ensemble.\n        learning_rate: Step size shrinkage used in update to prevents overfitting.\n            Default value is selected automatically for binary classification with other parameters set to default.\n            In all other cases default is 0.03.\n        depth: Depth of a tree. All trees are the same depth. Default = 6\n        random_seed: Random number seed. Default = 0\n\n        cat_features: A list of Categorical features (indices or names).\n        text_features: A list of Text features (indices or names).\n        additional_training_options: A dictionary with additional options to pass to CatBoostClassifier\n\n    Outputs:\n        model: Trained model in binary CatBoostModel format.\n\n    Annotations:\n        author: Alexey Volkov <alexey.volkov@oliveshell.com>")
       _parser.add_argument("--training-data", dest="training_data_path", type=str, required=True, default=argparse.SUPPRESS)
       _parser.add_argument("--starting-model", dest="starting_model_path", type=str, required=False, default=argparse.SUPPRESS)
       _parser.add_argument("--label-column", dest="label_column", type=int, required=False, default=argparse.SUPPRESS)

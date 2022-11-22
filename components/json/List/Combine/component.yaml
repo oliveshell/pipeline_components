@@ -1,7 +1,7 @@
 name: Combine lists
 description: Combines multiple JSON arrays into one.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/List/Combine/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/List/Combine/component.yaml'}
 inputs:
 - {name: list_1, type: JsonArray, optional: true}
 - {name: list_2, type: JsonArray, optional: true}

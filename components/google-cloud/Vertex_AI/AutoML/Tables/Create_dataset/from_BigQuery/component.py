@@ -15,7 +15,7 @@ def create_tabular_dataset_from_BigQuery_for_Google_Cloud_Vertex_AI(
     '''Creates Google Cloud Vertex AI Tabular Dataset from CSV data stored in GCS.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         data_uri: Google Cloud BigQuery URI pointing to the data that should be imported into the dataset.
@@ -88,7 +88,7 @@ if __name__ == '__main__':
         packages_to_install=['google-cloud-aiplatform==1.1.1'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Create_dataset/from_BigQuery/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Create_dataset/from_BigQuery/component.yaml",
         },
     )

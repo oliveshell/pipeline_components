@@ -17,7 +17,7 @@ def automl_export_model_to_gcs(
         model_format: The format in which the model must be exported. The available, and default, formats depend on the problem and model type. Possible formats: tf_saved_model, tf_js, tflite, core_ml, edgetpu_tflite. See https://cloud.google.com/automl/docs/reference/rest/v1/projects.locations.models/export?hl=en#modelexportoutputconfig
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     from google.cloud import automl
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
             'google-cloud-automl==2.0.0',
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/gcp/automl/export_model_to_gcs/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/gcp/automl/export_model_to_gcs/component.yaml",
         },
     )

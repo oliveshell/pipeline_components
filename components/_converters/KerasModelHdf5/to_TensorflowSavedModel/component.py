@@ -11,7 +11,7 @@ def keras_convert_hdf5_model_to_tf_saved_model(
         converted_model_path: Keras model in Tensorflow SavedModel format.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     '''
     from pathlib import Path
     from tensorflow import keras
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         packages_to_install=['h5py==2.10.0'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/_converters/KerasModelHdf5/to_TensorflowSavedModel/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/_converters/KerasModelHdf5/to_TensorflowSavedModel/component.yaml",
         },
     )

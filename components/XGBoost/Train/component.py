@@ -43,7 +43,7 @@ def train_XGBoost_model_on_CSV(
             0 indicates no limit on depth. Range: [0,Inf].
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     import pandas
     import xgboost
@@ -112,7 +112,7 @@ if __name__ == "__main__":
             "pandas==1.4.3",
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/XGBoost/Train/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/XGBoost/Train/component.yaml",
         },
     )

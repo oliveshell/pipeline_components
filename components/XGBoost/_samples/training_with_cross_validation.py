@@ -3,8 +3,8 @@ import kfp
 from kfp import components
 
 
-chicago_taxi_dataset_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/datasets/Chicago_Taxi_Trips/component.yaml')
-xgboost_train_and_cv_regression_on_csv_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/XGBoost/Train_and_cross-validate_regression/from_CSV/component.yaml')
+chicago_taxi_dataset_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/datasets/Chicago_Taxi_Trips/component.yaml')
+xgboost_train_and_cv_regression_on_csv_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/XGBoost/Train_and_cross-validate_regression/from_CSV/component.yaml')
 
 
 def cross_validation_pipeline(

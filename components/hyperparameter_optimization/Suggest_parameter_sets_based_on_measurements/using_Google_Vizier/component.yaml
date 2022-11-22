@@ -1,7 +1,7 @@
 name: Suggest parameter sets based on measurements using google vizier
 description: Suggests parameter sets to evaluate based on the past measurements.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/hyperparameter_optimization/Suggest_parameter_sets_based_on_measurements/using_Google_Vizier/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/hyperparameter_optimization/Suggest_parameter_sets_based_on_measurements/using_Google_Vizier/component.yaml'}
 inputs:
 - {name: parameter_specs, type: JsonArray, description: 'List of parameter specs.
     See https://github.com/google/vizier/blob/e92ab53bce139c89aff8c1590122c6b22adb5f47/vizier/service/study.proto#L171'}

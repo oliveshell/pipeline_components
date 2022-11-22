@@ -11,7 +11,7 @@ def build_list_of_floats(
     """Creates a JSON array from multiple floating-point numbers.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     result = []
     for item in [item_1, item_2, item_3, item_4, item_5]:
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         base_image='python:3.8',
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Build_list_of_floats/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Build_list_of_floats/component.yaml",
         },
     )

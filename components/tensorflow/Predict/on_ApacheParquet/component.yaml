@@ -1,6 +1,6 @@
 name: Predict with TensorFlow model on ApacheParquet data
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/tensorflow/Predict/on_ApacheParquet/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/tensorflow/Predict/on_ApacheParquet/component.yaml'}
 inputs:
 - {name: dataset, type: ApacheParquet}
 - {name: model, type: TensorflowSavedModel}

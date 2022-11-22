@@ -6,8 +6,8 @@ outputs:
 - {name: Output}
 metadata:
   annotations:
-    author: Alexey Volkov <alexey.volkov@ark-kun.com>
-    canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Get_element_by_key/component.yaml'
+    author: Alexey Volkov <alexey.volkov@oliveshell.com>
+    canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Get_element_by_key/component.yaml'
 implementation:
   container:
     image: stedolan/jq:latest

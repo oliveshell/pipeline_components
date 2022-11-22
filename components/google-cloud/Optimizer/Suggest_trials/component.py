@@ -14,7 +14,7 @@ def suggest_trials_in_gcp_ai_platform_optimizer(
     See https://cloud.google.com/ai-platform/optimizer/docs
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         study_name: Full resource name of the study.
@@ -90,7 +90,7 @@ if __name__ == '__main__':
         packages_to_install=['google-api-python-client==1.12.3', 'google-auth==1.21.3'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Optimizer/Suggest_trials/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Optimizer/Suggest_trials/component.yaml",
         },
     )

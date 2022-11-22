@@ -2,7 +2,7 @@
 
 Disclaimer: The components in this directory are unofficial and are maintained by the KFP team not the TFX team.
 
-If you experience any issues in this components please create a new issue in the Kubeflow Pipelines repo and assign it to Ark-kun.
+If you experience any issues in this components please create a new issue in the Kubeflow Pipelines repo and assign it to oliveshell.
 
 These components were created to allow the users to use TFX components in their KFP pipelines, to be able to mix KFP and TFX components.
 

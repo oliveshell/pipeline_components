@@ -1,7 +1,7 @@
 name: Train XGBoost model on ApacheParquet
 description: Trains an XGBoost model.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/XGBoost/Train/from_ApacheParquet/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/XGBoost/Train/from_ApacheParquet/component.yaml'}
 inputs:
 - {name: training_data, type: ApacheParquet, description: Training data in the Apache
     Parquet format.}
@@ -115,7 +115,7 @@ implementation:
                   0 indicates no limit on depth. Range: [0,Inf].
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
           """
           import pandas
           import xgboost

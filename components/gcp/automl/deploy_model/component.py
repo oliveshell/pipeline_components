@@ -13,7 +13,7 @@ def automl_deploy_model(
         model_path: The resource name of the model to export. Format: 'projects/<project>/locations/<location>/models/<model>'
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     from google.cloud import automl
     client = automl.AutoMlClient()
@@ -38,7 +38,7 @@ if __name__ == '__main__':
             'google-cloud-automl==2.0.0',
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/gcp/automl/deploy_model/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/gcp/automl/deploy_model/component.yaml",
         },
     )

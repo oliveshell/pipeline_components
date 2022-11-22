@@ -1,15 +1,15 @@
 from kfp import components
 
 
-chicago_taxi_dataset_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/datasets/Chicago_Taxi_Trips/component.yaml')
-pandas_transform_csv_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/pandas/Transform_DataFrame/in_CSV_format/component.yaml')
-download_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/web/Download/component.yaml')
+chicago_taxi_dataset_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/datasets/Chicago_Taxi_Trips/component.yaml')
+pandas_transform_csv_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/pandas/Transform_DataFrame/in_CSV_format/component.yaml')
+download_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/web/Download/component.yaml')
 
-create_fully_connected_pytorch_network_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/9a6218944f3d36529812d23e959690dd2b061102/components/PyTorch/Create_fully_connected_network/component.yaml')
-train_pytorch_model_from_csv_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/PyTorch/Train_PyTorch_model/from_CSV/component.yaml')
-convert_to_onnx_from_pytorch_script_module_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/PyTorch/Convert_to_OnnxModel_from_PyTorchScriptModule/component.yaml')
-create_pytorch_model_archive_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/PyTorch/Create_PyTorch_Model_Archive/component.yaml')
-create_pytorch_model_archive_with_base_handler_op = components.load_component_from_url('https://raw.githubusercontent.com/Ark-kun/pipeline_components/46d51383e6554b7f3ab4fd8cf614d8c2b422fb22/components/PyTorch/Create_PyTorch_Model_Archive/with_base_handler/component.yaml')
+create_fully_connected_pytorch_network_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/9a6218944f3d36529812d23e959690dd2b061102/components/PyTorch/Create_fully_connected_network/component.yaml')
+train_pytorch_model_from_csv_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/PyTorch/Train_PyTorch_model/from_CSV/component.yaml')
+convert_to_onnx_from_pytorch_script_module_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/PyTorch/Convert_to_OnnxModel_from_PyTorchScriptModule/component.yaml')
+create_pytorch_model_archive_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/d8c4cf5e6403bc65bcf8d606e6baf87e2528a3dc/components/PyTorch/Create_PyTorch_Model_Archive/component.yaml')
+create_pytorch_model_archive_with_base_handler_op = components.load_component_from_url('https://raw.githubusercontent.com/oliveshell/pipeline_components/46d51383e6554b7f3ab4fd8cf614d8c2b422fb22/components/PyTorch/Create_PyTorch_Model_Archive/with_base_handler/component.yaml')
 
 
 def pytorch_pipeline():

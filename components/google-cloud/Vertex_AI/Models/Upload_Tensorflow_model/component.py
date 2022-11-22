@@ -36,7 +36,7 @@ def upload_Tensorflow_model_to_Google_Cloud_Vertex_AI(
 
     if not labels:
         labels = {}
-    labels["component-source"] = "github-com-ark-kun-pipeline-components"
+    labels["component-source"] = "github-com-oliveshell-pipeline-components"
 
     model = aiplatform.Model.upload_tensorflow_saved_model(
         saved_model_dir=model_path,
@@ -78,8 +78,8 @@ if __name__ == "__main__":
             "google-cloud-aiplatform==1.16.0",
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_Tensorflow_model/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_Tensorflow_model/component.yaml",
         },
         output_component_file="component.yaml",
     )

@@ -16,7 +16,7 @@ def build_dict(
     """Creates a JSON object from multiple key and value pairs.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     result = dict([
         (key_1, value_1),
@@ -36,7 +36,7 @@ if __name__ == '__main__':
         base_image='python:3.8',
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Build_dict/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Build_dict/component.yaml",
         },
     )

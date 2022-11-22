@@ -36,7 +36,7 @@ def upload_PyTorch_model_archive_to_Google_Cloud_Vertex_AI(
 
     if not labels:
         labels = {}
-    labels["component-source"] = "github-com-ark-kun-pipeline-components"
+    labels["component-source"] = "github-com-oliveshell-pipeline-components"
 
     container_image_tag = torchserve_version + "-" + ("gpu" if use_gpu else "cpu")
     container_image_uri = f"pytorch/torchserve:{container_image_tag}"
@@ -180,8 +180,8 @@ if __name__ == "__main__":
             #"docker==5.0.3", # For container image mirroring
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_PyTorch_model_archive/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_PyTorch_model_archive/component.yaml",
         },
         output_component_file="component.yaml",
     )

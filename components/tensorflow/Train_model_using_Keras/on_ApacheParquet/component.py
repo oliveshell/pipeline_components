@@ -97,7 +97,7 @@ if __name__ == "__main__":
         # Check the version compatibility: https://github.com/tensorflow/io#tensorflow-version-compatibility
         packages_to_install=["tensorflow-io==0.25.0"],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/tensorflow/Train_model_using_Keras/on_ApacheParquet/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/tensorflow/Train_model_using_Keras/on_ApacheParquet/component.yaml",
         },
     )

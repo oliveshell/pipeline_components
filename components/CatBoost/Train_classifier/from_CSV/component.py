@@ -42,7 +42,7 @@ def catboost_train_classifier(
         model: Trained model in binary CatBoostModel format.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     '''
     import tempfile
     from pathlib import Path
@@ -91,7 +91,7 @@ if __name__ == '__main__':
         base_image='python:3.7',
         packages_to_install=['catboost==0.23'],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/CatBoost/Train_classifier/from_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/CatBoost/Train_classifier/from_CSV/component.yaml",
         },
     )

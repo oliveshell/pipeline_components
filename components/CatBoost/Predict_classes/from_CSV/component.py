@@ -19,7 +19,7 @@ def catboost_predict_classes(
         predictions: Class predictions in text format.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     '''
     import tempfile
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
         base_image='python:3.7',
         packages_to_install=['catboost==0.22'],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/CatBoost/Predict_classes/from_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/CatBoost/Predict_classes/from_CSV/component.yaml",
         },
     )

@@ -15,14 +15,14 @@ import kfp
 from kfp import components
 
 
-suggest_parameter_sets_from_measurements_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/89cae6e577945657c6f5f09a6a239bedc8a99cf6/components/hyperparameter_optimization/Suggest_parameter_sets_based_on_measurements/using_Google_Vizier/component.yaml")
+suggest_parameter_sets_from_measurements_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/89cae6e577945657c6f5f09a6a239bedc8a99cf6/components/hyperparameter_optimization/Suggest_parameter_sets_based_on_measurements/using_Google_Vizier/component.yaml")
 
-get_item_from_list_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/4c166fc/components/json/List/Get/Dict/component.yaml")
-create_dict_from_float_value_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/ef6979f5ff47df6e2375a1ce9e8c4d446b674e9f/components/json/Dict/Create/from_Float/component.yaml")
-create_dict_from_dict_value_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/ef6979f5ff47df6e2375a1ce9e8c4d446b674e9f/components/json/Dict/Create/from_Dict/component.yaml")
-merge_dicts_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/4c166fc/components/json/Dict/Merge/component.yaml")
-create_list_from_dicts_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/4c166fc/components/json/List/Create/from_Dicts/component.yaml")
-combine_lists_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/4c166fc/components/json/List/Combine/component.yaml")
+get_item_from_list_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/4c166fc/components/json/List/Get/Dict/component.yaml")
+create_dict_from_float_value_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/ef6979f5ff47df6e2375a1ce9e8c4d446b674e9f/components/json/Dict/Create/from_Float/component.yaml")
+create_dict_from_dict_value_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/ef6979f5ff47df6e2375a1ce9e8c4d446b674e9f/components/json/Dict/Create/from_Dict/component.yaml")
+merge_dicts_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/4c166fc/components/json/Dict/Merge/component.yaml")
+create_list_from_dicts_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/4c166fc/components/json/List/Create/from_Dicts/component.yaml")
+combine_lists_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/4c166fc/components/json/List/Combine/component.yaml")
 
 
 # The train_and_measure_model is a semi-dummy component that creates a model given the [hyper]parameters and evaluates that model.

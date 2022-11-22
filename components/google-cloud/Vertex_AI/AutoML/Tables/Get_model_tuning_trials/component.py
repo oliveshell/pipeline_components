@@ -59,7 +59,7 @@ if __name__ == '__main__':
         packages_to_install=["google-cloud-logging==2.7.0"],
         output_component_file="component.yaml",
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Get_model_tuning_trials/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Get_model_tuning_trials/component.yaml",
         },
     )

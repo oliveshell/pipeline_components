@@ -1,6 +1,6 @@
 name: Convert to OnnxModel from XGBoostJsonModel
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/_converters/OnnxModel/from_XGBoostJsonModel/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/_converters/OnnxModel/from_XGBoostJsonModel/component.yaml'}
 inputs:
 - {name: model, type: XGBoostJsonModel}
 - {name: model_graph_name, type: String, optional: true}

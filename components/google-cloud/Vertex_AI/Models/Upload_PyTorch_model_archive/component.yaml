@@ -1,6 +1,6 @@
 name: Upload PyTorch model archive to Google Cloud Vertex AI
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_PyTorch_model_archive/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_PyTorch_model_archive/component.yaml'}
 inputs:
 - {name: model_archive, type: PyTorchModelArchive}
 - {name: torchserve_version, type: String, default: 0.6.0, optional: true}
@@ -64,7 +64,7 @@ implementation:
 
           if not labels:
               labels = {}
-          labels["component-source"] = "github-com-ark-kun-pipeline-components"
+          labels["component-source"] = "github-com-oliveshell-pipeline-components"
 
           container_image_tag = torchserve_version + "-" + ("gpu" if use_gpu else "cpu")
           container_image_uri = f"pytorch/torchserve:{container_image_tag}"

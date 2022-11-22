@@ -179,7 +179,7 @@ if __name__ == "__main__":
         packages_to_install=["google-vizier[algorithms]==0.0.13"],
         output_component_file="component.yaml",
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/hyperparameter_optimization/Suggest_parameter_sets_based_on_measurements/using_Google_Vizier/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/hyperparameter_optimization/Suggest_parameter_sets_based_on_measurements/using_Google_Vizier/component.yaml",
         },
     )

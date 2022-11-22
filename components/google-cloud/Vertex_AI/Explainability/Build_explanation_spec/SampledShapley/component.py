@@ -52,7 +52,7 @@ if __name__ == "__main__":
         base_image="python:3.10",
         packages_to_install=[],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Explainability/Build_explanation_spec/SampledShapley/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Explainability/Build_explanation_spec/SampledShapley/component.yaml",
         },
     )

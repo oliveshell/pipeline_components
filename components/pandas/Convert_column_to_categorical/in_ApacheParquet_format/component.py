@@ -59,7 +59,7 @@ if __name__ == "__main__":
             "pyarrow==9.0.0",
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/pandas/Convert_column_to_categorical/in_ApacheParquet_format/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/pandas/Convert_column_to_categorical/in_ApacheParquet_format/component.yaml",
         },
     )

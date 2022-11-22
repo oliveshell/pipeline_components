@@ -9,8 +9,8 @@ outputs:
 - {name: suggested_trials, type: JsonArray}
 metadata:
   annotations:
-    author: Alexey Volkov <alexey.volkov@ark-kun.com>
-    canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Optimizer/Suggest_trials/component.yaml'
+    author: Alexey Volkov <alexey.volkov@oliveshell.com>
+    canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Optimizer/Suggest_trials/component.yaml'
 implementation:
   container:
     image: python:3.8
@@ -36,7 +36,7 @@ implementation:
           See https://cloud.google.com/ai-platform/optimizer/docs
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
           Args:
               study_name: Full resource name of the study.

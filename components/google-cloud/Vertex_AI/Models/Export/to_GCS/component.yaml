@@ -1,6 +1,6 @@
 name: Export model to GCS for Google Cloud Vertex AI Model
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Export/to_GCS/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Export/to_GCS/component.yaml'}
 inputs:
 - {name: model_name, type: GoogleCloudVertexAiModelName}
 - {name: output_prefix_gcs_uri, type: String}

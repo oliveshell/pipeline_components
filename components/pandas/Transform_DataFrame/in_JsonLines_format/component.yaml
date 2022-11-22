@@ -1,7 +1,7 @@
 name: Transform using Pandas DataFrame on JsonLines data
 description: Transform DataFrame loaded from an ApacheParquet file.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/pandas/Transform_DataFrame/in_JsonLines_format/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/pandas/Transform_DataFrame/in_JsonLines_format/component.yaml'}
 inputs:
 - {name: table, type: JsonLines, description: DataFrame to transform.}
 - name: transform_code

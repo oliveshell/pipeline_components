@@ -9,7 +9,7 @@ def convert_apache_parquet_to_csv(
     [Apache Parquet](https://parquet.apache.org/)
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     '''
     from pyarrow import parquet
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         base_image='python:3.7',
         packages_to_install=['pyarrow==0.17.1', 'pandas==1.0.3'],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/_converters/ApacheParquet/to_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/_converters/ApacheParquet/to_CSV/component.yaml",
         },
     )

@@ -16,7 +16,7 @@ def xgboost_predict_on_ApacheParquet(
         label_column_name: Optional. Name of the column containing the label data that is excluded during the prediction.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     from pathlib import Path
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
             "pyarrow==9.0.0",
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/XGBoost/Predict/from_ApacheParquet/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/XGBoost/Predict/from_ApacheParquet/component.yaml",
         },
     )

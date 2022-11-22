@@ -16,7 +16,7 @@ def create_study_in_gcp_ai_platform_optimizer(
     See https://cloud.google.com/ai-platform/optimizer/docs
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         study_id: Name of the study.
@@ -73,7 +73,7 @@ if __name__ == '__main__':
         packages_to_install=['google-api-python-client==1.12.3', 'google-auth==1.21.3'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Optimizer/Create_study/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Optimizer/Create_study/component.yaml",
         },
     )

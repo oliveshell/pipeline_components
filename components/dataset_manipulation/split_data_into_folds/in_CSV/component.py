@@ -35,7 +35,7 @@ def split_table_into_folds(
         test_i: The i-th testing subsample
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     """
     import pandas
@@ -85,7 +85,7 @@ if __name__ == '__main__':
         packages_to_install=['scikit-learn==0.23.1', 'pandas==1.0.5'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/dataset_manipulation/split_data_into_folds/in_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/dataset_manipulation/split_data_into_folds/in_CSV/component.yaml",
         },
     )

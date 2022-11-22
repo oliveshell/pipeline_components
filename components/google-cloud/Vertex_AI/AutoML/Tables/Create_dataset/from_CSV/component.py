@@ -17,7 +17,7 @@ def create_tabular_dataset_from_CSV_for_Google_Cloud_Vertex_AI(
     '''Creates Google Cloud Vertex AI Tabular Dataset from CSV data stored in GCS.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         data_path: Data in CSV format that should be imported into the dataset.
@@ -91,7 +91,7 @@ def create_tabular_dataset_from_CSV_for_Google_Cloud_Vertex_AI(
     staged_data_uri = aiplatform_utils.stage_local_data_in_gcs(data_path=staged_data_path)
 
     labels = labels or {}
-    labels["component-source"] = "github-com-ark-kun-pipeline-components"
+    labels["component-source"] = "github-com-oliveshell-pipeline-components"
 
     # Create the dataset
     dataset = aiplatform.TabularDataset.create(
@@ -114,12 +114,12 @@ if __name__ == '__main__':
         base_image='python:3.9',
         packages_to_install=[
             # "google-cloud-aiplatform==1.6.2",
-            "git+https://github.com/Ark-kun/python-aiplatform@8f61efb3a7903a6e0ef47d957f26ef3083581c7e#egg=google-cloud-aiplatform&subdirectory=.",  # branch: feat--Support-uploading-local-models
+            "git+https://github.com/oliveshell/python-aiplatform@8f61efb3a7903a6e0ef47d957f26ef3083581c7e#egg=google-cloud-aiplatform&subdirectory=.",  # branch: feat--Support-uploading-local-models
             "google-api-python-client==2.29.0",  # For project number -> project ID conversion
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Create_dataset/from_GCS/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Create_dataset/from_GCS/component.yaml",
         },
         output_component_file='component.yaml',
     )

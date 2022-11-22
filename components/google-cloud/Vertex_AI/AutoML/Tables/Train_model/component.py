@@ -46,7 +46,7 @@ def train_tabular_model_using_Google_Cloud_Vertex_AI_AutoML(
     of data will be used for training, 10% for validation, and 10% for test.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         dataset_name:
@@ -256,7 +256,7 @@ if __name__ == '__main__':
         ],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Train_model/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Train_model/component.yaml",
         },
     )

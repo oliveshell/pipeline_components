@@ -37,7 +37,7 @@ def upload_XGBoost_model_to_Google_Cloud_Vertex_AI(
 
     if not labels:
         labels = {}
-    labels["component-source"] = "github-com-ark-kun-pipeline-components"
+    labels["component-source"] = "github-com-oliveshell-pipeline-components"
 
     # The serving container decides the model type based on the model file extension.
     # So we need to rename the mode file (e.g. /tmp/inputs/model/data) to *.pkl
@@ -83,8 +83,8 @@ if __name__ == "__main__":
             "google-cloud-aiplatform==1.16.0",
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_XGBoost_model/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Upload_XGBoost_model/component.yaml",
         },
         output_component_file="component.yaml",
     )

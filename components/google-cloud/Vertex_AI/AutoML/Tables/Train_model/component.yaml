@@ -1,7 +1,7 @@
 name: Train tabular model using Google Cloud Vertex AI AutoML
 description: Trains model using Google Cloud Vertex AI AutoML.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Train_model/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/AutoML/Tables/Train_model/component.yaml'}
 inputs:
 - name: dataset_name
   type: GoogleCloudVertexAiTabularDatasetName
@@ -216,7 +216,7 @@ implementation:
           of data will be used for training, 10% for validation, and 10% for test.
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
           Args:
               dataset_name:

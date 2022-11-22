@@ -72,7 +72,7 @@ def deploy_model_to_endpoint_for_Google_Cloud_Vertex_AI_Model(
             project=model.project,
             location=model.location,
             # encryption_spec_key_name=encryption_spec_key_name,
-            labels={"component-source": "github-com-ark-kun-pipeline-components"},
+            labels={"component-source": "github-com-oliveshell-pipeline-components"},
         )
 
     endpoint = model.deploy(
@@ -104,8 +104,8 @@ if __name__ == "__main__":
             "google-cloud-aiplatform==1.7.0",
         ],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Deploy_to_endpoint/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Deploy_to_endpoint/component.yaml",
         },
         output_component_file="component.yaml",
     )

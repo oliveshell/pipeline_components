@@ -1,7 +1,7 @@
 name: Create dataset from BigQuery for Google Cloud AutoML Tables
 description: Creates Google Cloud AutoML Tables Dataset from CSV data stored in GCS.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_BigQuery/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_BigQuery/component.yaml'}
 inputs:
 - name: data_uri
   type: GoogleCloudBigQueryUri
@@ -58,7 +58,7 @@ implementation:
           '''Creates Google Cloud AutoML Tables Dataset from CSV data stored in GCS.
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
           Args:
               data_uri: Google Cloud BigQuery URI pointing to the data that should be imported into the dataset.

@@ -1,11 +1,11 @@
 from kfp import components
 
-chicago_taxi_dataset_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/8dda6ec74d859a0112907fab8bc987a177b9fa4b/components/datasets/Chicago_Taxi_Trips/component.yaml")
+chicago_taxi_dataset_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/8dda6ec74d859a0112907fab8bc987a177b9fa4b/components/datasets/Chicago_Taxi_Trips/component.yaml")
 # See https://github.com/keras-team/keras/issues/16451
-#create_fully_connected_tensorflow_network_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/8721c9c658b40d260ca90c4c8198cf12c2c88838/components/tensorflow/Create_fully_connected_network/component.yaml")
-create_fully_connected_tensorflow_network_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/f3a9769d35a057c31a498e0667cae2e4a830c5b0/components/tensorflow/Create_fully_connected_network/component.yaml")
+#create_fully_connected_tensorflow_network_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/8721c9c658b40d260ca90c4c8198cf12c2c88838/components/tensorflow/Create_fully_connected_network/component.yaml")
+create_fully_connected_tensorflow_network_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/f3a9769d35a057c31a498e0667cae2e4a830c5b0/components/tensorflow/Create_fully_connected_network/component.yaml")
 
-train_model_using_Keras_on_CSV_op = components.load_component_from_url("https://raw.githubusercontent.com/Ark-kun/pipeline_components/c504a4010348c50eaaf6d4337586ccc008f4dcef/components/tensorflow/Train_model_using_Keras/on_CSV/component.yaml")
+train_model_using_Keras_on_CSV_op = components.load_component_from_url("https://raw.githubusercontent.com/oliveshell/pipeline_components/c504a4010348c50eaaf6d4337586ccc008f4dcef/components/tensorflow/Train_model_using_Keras/on_CSV/component.yaml")
 
 
 def tensorflow_pipeline():

@@ -1,7 +1,7 @@
 name: Merge dicts
 description: Merges multiple JSON objects into one.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Dict/Merge/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Dict/Merge/component.yaml'}
 inputs:
 - {name: dict_1, type: JsonObject, optional: true}
 - {name: dict_2, type: JsonObject, optional: true}

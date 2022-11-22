@@ -1,7 +1,7 @@
 name: Create dict from string value
 description: Creates a JSON object from key and value.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Dict/Create/from_String/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Dict/Create/from_String/component.yaml'}
 inputs:
 - {name: key, type: String}
 - {name: value, type: String}

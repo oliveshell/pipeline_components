@@ -23,7 +23,7 @@ def keras_train_classifier_from_csv(
     '''Trains classifier model using Keras.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     '''
     from pathlib import Path
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
         packages_to_install=['keras==2.3.1', 'pandas==1.4.3'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/keras/Train_classifier/from_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/keras/Train_classifier/from_CSV/component.yaml",
         },
     )

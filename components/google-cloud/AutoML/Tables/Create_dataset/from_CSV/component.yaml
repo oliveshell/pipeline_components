@@ -1,7 +1,7 @@
 name: Create dataset from CSV for Google Cloud AutoML Tables
 description: Creates Google Cloud AutoML Tables Dataset from CSV data.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_CSV/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_CSV/component.yaml'}
 inputs:
 - {name: data, type: CSV, description: Data in CSV format that will be imported to
     the dataset.}
@@ -58,7 +58,7 @@ implementation:
           '''Creates Google Cloud AutoML Tables Dataset from CSV data.
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
           Args:
               data_path: Data in CSV format that will be imported to the dataset.

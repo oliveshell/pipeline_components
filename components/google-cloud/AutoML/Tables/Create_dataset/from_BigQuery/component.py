@@ -18,7 +18,7 @@ def create_dataset_from_BigQuery_for_Google_Cloud_AutoML_Tables(
     '''Creates Google Cloud AutoML Tables Dataset from CSV data stored in GCS.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
 
     Args:
         data_uri: Google Cloud BigQuery URI pointing to the data that should be imported into the dataset.
@@ -149,7 +149,7 @@ if __name__ == '__main__':
         packages_to_install=['google-cloud-automl==2.4.2'],
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_BigQuery/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/AutoML/Tables/Create_dataset/from_BigQuery/component.yaml",
         },
     )

@@ -1,7 +1,7 @@
 name: Deploy model to endpoint for Google Cloud Vertex AI Model
 description: Deploys Google Cloud Vertex AI Model to a Google Cloud Vertex AI Endpoint.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Deploy_to_endpoint/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/google-cloud/Vertex_AI/Models/Deploy_to_endpoint/component.yaml'}
 inputs:
 - {name: model_name, type: GoogleCloudVertexAiModelName, description: Full resource
     name of a Google Cloud Vertex AI Model}
@@ -137,7 +137,7 @@ implementation:
                   project=model.project,
                   location=model.location,
                   # encryption_spec_key_name=encryption_spec_key_name,
-                  labels={"component-source": "github-com-ark-kun-pipeline-components"},
+                  labels={"component-source": "github-com-oliveshell-pipeline-components"},
               )
 
           endpoint = model.deploy(

@@ -1,7 +1,7 @@
 name: Build list of floats
 description: Creates a JSON array from multiple floating-point numbers.
 metadata:
-  annotations: {author: Alexey Volkov <alexey.volkov@ark-kun.com>, canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Build_list_of_floats/component.yaml'}
+  annotations: {author: Alexey Volkov <alexey.volkov@oliveshell.com>, canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Build_list_of_floats/component.yaml'}
 inputs:
 - {name: item_1, type: Float, optional: true}
 - {name: item_2, type: Float, optional: true}
@@ -31,7 +31,7 @@ implementation:
           """Creates a JSON array from multiple floating-point numbers.
 
           Annotations:
-              author: Alexey Volkov <alexey.volkov@ark-kun.com>
+              author: Alexey Volkov <alexey.volkov@oliveshell.com>
           """
           result = []
           for item in [item_1, item_2, item_3, item_4, item_5]:

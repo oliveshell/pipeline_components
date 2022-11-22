@@ -14,7 +14,7 @@ def convert_CatBoostModel_to_ONNX(
         converted_model: Model in ONNX format.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     '''
     from catboost import CatBoost
 
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         base_image='python:3.7',
         packages_to_install=['catboost==0.22'],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/CatBoost/convert_CatBoostModel_to_ONNX/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/CatBoost/convert_CatBoostModel_to_ONNX/component.yaml",
         },
     )

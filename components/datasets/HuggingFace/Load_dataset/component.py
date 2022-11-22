@@ -23,8 +23,8 @@ if __name__ == '__main__':
         base_image='python:3.9',
         packages_to_install=['datasets==1.6.2'],
         annotations={
-            'author': 'Alexey Volkov <alexey.volkov@ark-kun.com>',
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/datasets/HuggingFace/Load_dataset/component.yaml",
+            'author': 'Alexey Volkov <alexey.volkov@oliveshell.com>',
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/datasets/HuggingFace/Load_dataset/component.yaml",
         },
         output_component_file='component.yaml',
     )

@@ -11,7 +11,7 @@ def combine_lists(
     """Combines multiple JSON arrays into one.
 
     Annotations:
-        author: Alexey Volkov <alexey.volkov@ark-kun.com>
+        author: Alexey Volkov <alexey.volkov@oliveshell.com>
     """
     result = []
     for list in [list_1, list_2, list_3, list_4, list_5]:
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         base_image='python:3.8',
         output_component_file='component.yaml',
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/json/Combine_lists/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/json/Combine_lists/component.yaml",
         },
     )

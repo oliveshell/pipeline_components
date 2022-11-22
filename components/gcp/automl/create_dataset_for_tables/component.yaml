@@ -2,8 +2,8 @@ name: Create dataset for google cloud automl tables
 description: Creates an empty Dataset for AutoML tables
 metadata:
   annotations:
-    author: Alexey Volkov <alexey.volkov@ark-kun.com>
-    canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/gcp/automl/create_dataset_for_tables/component.yaml'
+    author: Alexey Volkov <alexey.volkov@oliveshell.com>
+    canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/gcp/automl/create_dataset_for_tables/component.yaml'
 inputs:
 - {name: display_name, type: String}
 - {name: description, type: String, optional: true}

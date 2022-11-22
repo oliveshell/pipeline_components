@@ -20,7 +20,7 @@ if __name__ == '__main__':
         base_image="tensorflow/tensorflow:2.8.0",
         packages_to_install=["onnx-tf==1.9.0", "onnx==1.11.0"],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/_converters/OnnxModel/to_TensorflowSavedModel/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/_converters/OnnxModel/to_TensorflowSavedModel/component.yaml",
         },
     )

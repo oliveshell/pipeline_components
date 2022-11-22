@@ -7,8 +7,8 @@ outputs:
 - {name: schema, type: Schema}
 metadata:
   annotations:
-    author: Alexey Volkov <alexey.volkov@ark-kun.com>
-    canonical_location: 'https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/deprecated/tfx/SchemaGen/component.yaml'
+    author: Alexey Volkov <alexey.volkov@oliveshell.com>
+    canonical_location: 'https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/deprecated/tfx/SchemaGen/component.yaml'
 implementation:
   container:
     image: tensorflow/tfx:0.29.0

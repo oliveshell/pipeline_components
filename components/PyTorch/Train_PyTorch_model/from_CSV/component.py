@@ -109,7 +109,7 @@ if __name__ == '__main__':
         base_image='pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime',
         packages_to_install=['pandas==1.4.3'],
         annotations={
-            "author": "Alexey Volkov <alexey.volkov@ark-kun.com>",
-            "canonical_location": "https://raw.githubusercontent.com/Ark-kun/pipeline_components/master/components/PyTorch/Train_PyTorch_model/from_CSV/component.yaml",
+            "author": "Alexey Volkov <alexey.volkov@oliveshell.com>",
+            "canonical_location": "https://raw.githubusercontent.com/oliveshell/pipeline_components/master/components/PyTorch/Train_PyTorch_model/from_CSV/component.yaml",
         },
     )
